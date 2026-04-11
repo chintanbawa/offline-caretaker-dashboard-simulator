@@ -1,5 +1,6 @@
 import cors from 'cors';
 import express from 'express';
+import { statusRouter } from './routes/status';
 
 export function createApp() {
   const app = express();
@@ -14,6 +15,8 @@ export function createApp() {
       timestamp: new Date().toISOString()
     });
   });
+
+  app.use('/status', statusRouter);
 
   return app;
 }

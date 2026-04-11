@@ -1,0 +1,14 @@
+[
+  { "name": "Semantic Engine", "status": "healthy", "message": "Nominal" },
+  {
+    "name": "Motion Control",
+    "status": "warning",
+    "message": "Actuator latency elevated"
+  },
+  { "name": "Security Layer", "status": "healthy", "message": "All checks passed" },
+  {
+    "name": "Backup Service",
+    "status": "healthy",
+    "message": "Last backup completed"
+  }
+]
