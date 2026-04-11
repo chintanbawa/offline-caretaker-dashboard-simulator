@@ -1,6 +1,7 @@
 import cors from 'cors';
 import express from 'express';
 import { statusRouter } from './routes/status';
+import { logsRouter } from './routes/logs';
 
 export function createApp() {
   const app = express();
@@ -17,6 +18,7 @@ export function createApp() {
   });
 
   app.use('/status', statusRouter);
+  app.use('/logs', logsRouter);
 
   return app;
 }
