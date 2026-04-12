@@ -3,6 +3,7 @@ import express from 'express';
 import { statusRouter } from './routes/status';
 import { logsRouter } from './routes/logs';
 import { backupsRouter } from './routes/backups';
+import { commandsRouter } from './routes/commands';
 
 export function createApp() {
   const app = express();
@@ -21,6 +22,7 @@ export function createApp() {
   app.use('/status', statusRouter);
   app.use('/logs', logsRouter);
   app.use('/backups', backupsRouter);
+  app.use('/commands', commandsRouter);
 
   return app;
 }
