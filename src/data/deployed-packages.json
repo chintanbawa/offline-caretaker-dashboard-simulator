@@ -1,0 +1,38 @@
+[
+  {
+    "packageName": "skill-navigation-v1",
+    "version": "1.0.0",
+    "payload": {
+      "rules": [
+        "avoid-obstacle",
+        "low-speed-mode"
+      ]
+    },
+    "signature": "1fd5c71d18a5b1e916ee8f6186e6fe2e1c510934b32fb28a1d78831e8e005013",
+    "deployedAt": "2026-04-12T22:58:20.756Z"
+  },
+  {
+    "packageName": "skill-navigation-v1",
+    "version": "1.0.0",
+    "payload": {
+      "rules": [
+        "avoid-obstacle",
+        "low-speed-mode"
+      ]
+    },
+    "signature": "1fd5c71d18a5b1e916ee8f6186e6fe2e1c510934b32fb28a1d78831e8e005013",
+    "deployedAt": "2026-04-12T23:00:44.331Z"
+  },
+  {
+    "packageName": "skill-navigation-v1",
+    "version": "1.0.0",
+    "payload": {
+      "rules": [
+        "avoid-obstacle",
+        "low-speed-mode"
+      ]
+    },
+    "signature": "1fd5c71d18a5b1e916ee8f6186e6fe2e1c510934b32fb28a1d78831e8e005013",
+    "deployedAt": "2026-04-12T23:04:13.974Z"
+  }
+]
